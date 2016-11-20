@@ -1,0 +1,11 @@
+[user]
+	name = Edo Freriks
+	email = edofre@gmail.com
+[push]
+	default = simple
+[filter "lfs"]
+	clean = git lfs clean %f
+	smudge = git lfs smudge %f
+	required = true
+[core]
+	excludesfile = ~/.gitignore
