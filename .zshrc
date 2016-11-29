@@ -49,7 +49,7 @@ ZSH_CUSTOM=~/.dotfiles/zshrc/
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git laravel5)
+plugins=(git laravel5 osx)
 
 # User configuration
 
@@ -94,7 +94,6 @@ alias www='cd /Applications/MAMP/htdocs/'
 # Global helpers
 alias ls+='ls -lha'
 alias gs='git status'
-alias art='mamphp artisan'
 
 ## Override default PHP
 export PATH=/usr/local/php5/bin:$PATH
