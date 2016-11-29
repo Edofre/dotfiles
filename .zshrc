@@ -83,15 +83,18 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# easy php and mysql access for MAMP
 alias mamphp='/Applications/MAMP/bin/php/php7.0.12/bin/php'
 alias mamsql='/Applications/MAMP/Library/bin/mysql --host=localhost -uroot -proot'
-alias ls+='ls -lha'
 
+# Location helpers
 alias htdocs='cd /Applications/MAMP/htdocs/'
 alias www='cd /Applications/MAMP/htdocs/'
 
+# Global helpers
+alias ls+='ls -lha'
 alias gs='git status'
+alias art='mamphp artisan'
 
-
-## Override default PHP 
+## Override default PHP
 export PATH=/usr/local/php5/bin:$PATH
