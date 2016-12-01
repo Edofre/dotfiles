@@ -94,7 +94,11 @@ alias www='cd /Applications/MAMP/htdocs/'
 # Global helpers
 alias lss='ls -lha'
 alias gs='git status'
+
+# Composer helpers
 alias cup='composer update'
+alias cda='composer dump-autoload'
+alias ccc='composer clear-cache'
 
 ## Override default PHP
 export PATH=/usr/local/php5/bin:$PATH
