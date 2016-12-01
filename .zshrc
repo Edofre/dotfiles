@@ -99,6 +99,7 @@ alias gs='git status'
 alias cup='composer update'
 alias cda='composer dump-autoload'
 alias ccc='composer clear-cache'
+alias cte='composer test'
 
 ## Override default PHP
 export PATH=/usr/local/php5/bin:$PATH
