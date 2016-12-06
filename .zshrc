@@ -83,13 +83,16 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-# easy php and mysql access for MAMP
+# Easy php and mysql access for MAMP
 alias mamphp='/Applications/MAMP/bin/php/php7.0.12/bin/php'
 alias mamsql='/Applications/MAMP/Library/bin/mysql --host=localhost -uroot -proot'
 
 # Location helpers
 alias htdocs='cd /Applications/MAMP/htdocs/'
 alias www='cd /Applications/MAMP/htdocs/'
+
+# Script helpers
+alias kygn='python ~/.dotfiles/scripts/keygen.py'
 
 # Global helpers
 alias lss='ls -lha'
