@@ -90,6 +90,7 @@ alias mamsql='/Applications/MAMP/Library/bin/mysql --host=localhost -uroot -proo
 # Location helpers
 alias htdocs='cd /Applications/MAMP/htdocs/'
 alias www='cd /Applications/MAMP/htdocs/'
+alias dot='cd ~/.dotfiles/'
 
 # Script helpers
 alias kygn='python ~/.dotfiles/scripts/keygen.py'
