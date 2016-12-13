@@ -52,7 +52,6 @@ ZSH_CUSTOM=~/.dotfiles/zshrc/
 plugins=(git laravel5 osx)
 
 # User configuration
-
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/git/bin:/opt/ImageMagick/bin:/Users/edofreriks/.composer/vendor/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
@@ -98,6 +97,7 @@ alias kygn='python ~/.dotfiles/scripts/keygen.py'
 # Global helpers
 alias lss='ls -lha'
 alias gs='git status'
+alias glpp='gulp --production'
 
 # Composer helpers
 alias cup='composer update'
