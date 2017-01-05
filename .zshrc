@@ -97,6 +97,7 @@ alias kygn='python ~/.dotfiles/scripts/keygen.py'
 # Global helpers
 alias lss='ls -lha'
 alias gs='git status'
+alias gcmsgs="git commit -S -m"
 alias glpp='gulp --production'
 alias npmi='npm install'
 
