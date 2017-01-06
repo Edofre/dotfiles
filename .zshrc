@@ -91,13 +91,13 @@ alias htdocs='cd /Applications/MAMP/htdocs/'
 alias www='cd /Applications/MAMP/htdocs/'
 alias dot='cd ~/.dotfiles/'
 
-# Script helpers
+# Script helperst
 alias kygn='python ~/.dotfiles/scripts/keygen.py'
 
 # Global helpers
 alias lss='ls -lha'
 alias gs='git status'
-alias gcmsgs="git commit -S -m"
+alias gcsmgs="git commit -S -m"
 alias glpp='gulp --production'
 alias npmi='npm install'
 
