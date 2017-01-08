@@ -107,5 +107,11 @@ alias cda='composer dump-autoload'
 alias ccc='composer clear-cache'
 alias cte='composer test'
 
+# Travis helpers
+alias trvl='travis lint'
+
 ## Override default PHP
 export PATH=/usr/local/php5/bin:$PATH
+
+# added by travis gem
+[ -f /Users/edofreriks/.travis/travis.sh ] && source /Users/edofreriks/.travis/travis.sh
