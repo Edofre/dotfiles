@@ -91,11 +91,13 @@ alias htdocs='cd /Applications/MAMP/htdocs/'
 alias www='cd /Applications/MAMP/htdocs/'
 alias dot='cd ~/.dotfiles/'
 
-# Script helperst
+# Script helper
 alias kygn='python ~/.dotfiles/scripts/keygen.py'
 
-# Global helpers
+# ls helper
 alias lss='ls -lha'
+
+# npm helper
 alias npmi='npm install'
 
 # GIT helpers
