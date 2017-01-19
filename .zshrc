@@ -96,10 +96,13 @@ alias kygn='python ~/.dotfiles/scripts/keygen.py'
 
 # Global helpers
 alias lss='ls -lha'
+alias npmi='npm install'
+
+# GIT helpers
 alias gs='git status'
 alias gcsmgs="git commit -S -m"
 alias glpp='gulp --production'
-alias npmi='npm install'
+alias gdns='git diff --name-status'
 
 # Composer helpers
 alias cup='composer update'
