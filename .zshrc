@@ -96,6 +96,7 @@ alias kygn='python ~/.dotfiles/scripts/keygen.py'
 
 # ls helper
 alias lss='ls -lha'
+alias lso='~/.dotfiles/scripts/lso'
 
 # npm helper
 alias npmi='npm install'
