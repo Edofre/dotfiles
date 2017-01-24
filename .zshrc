@@ -103,6 +103,7 @@ alias npmi='npm install'
 
 # GIT helpers
 alias gs='git status'
+alias gbv='git branch -v'
 alias gcsmgs="git commit -S -m"
 alias glpp='gulp --production'
 alias gdns='git diff --name-status'
