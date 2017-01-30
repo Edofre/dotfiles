@@ -83,7 +83,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # Easy php and mysql access for MAMP
-alias mamphp='/Applications/MAMP/bin/php/php7.0.12/bin/php'
+alias mamphp='/Applications/MAMP/bin/php/php7.1.0/bin/php'
 alias mamsql='/Applications/MAMP/Library/bin/mysql --host=localhost -uroot -proot'
 
 # Location helpers
