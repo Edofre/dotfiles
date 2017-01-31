@@ -95,7 +95,7 @@ alias dot='cd ~/.dotfiles/'
 alias kygn='python ~/.dotfiles/scripts/keygen.py'
 
 # ls helper
-alias lss='ls -lha'
+alias lss='ls -lhaF'
 alias lso='~/.dotfiles/scripts/lso'
 
 # npm helper
