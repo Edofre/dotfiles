@@ -1,5 +1,10 @@
+# System files
 .DS_Store
 
+# Editor directory
 .idea/
-node_modules/
+
+# Package directories
 bower_components/
+node_modules/
+vendor/
