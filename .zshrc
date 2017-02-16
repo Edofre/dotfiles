@@ -114,15 +114,14 @@ alias cda='composer dump-autoload'
 alias ccc='composer clear-cache'
 alias cte='composer test'
 
-# alias weather='function __myalias() { echo "Hello $*"; unset -f __myalias; }; __myalias'
-
-alias weather='function __weather() { curl -s wttr.in/$* | sed -n "1,7p"; }; __weather'
-
 # Travis helpers
 alias trvl='travis lint'
 
 # PHPUnit
 alias phpunit='/usr/local/bin/phpunit-5.7.5.phar'
+
+# Just cool stuff here
+alias weather='function __weather() { curl -s wttr.in/$* | sed -n "1,7p"; }; __weather'
 
 ## Override default PHP
 export PATH=/usr/local/php5/bin:$PATH
