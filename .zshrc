@@ -96,6 +96,7 @@ alias kygn='python ~/.dotfiles/scripts/keygen.py'
 
 # ls helper
 alias lss='ls -lhaF'
+# Permisson of lso script should be 0755
 alias lso='~/.dotfiles/scripts/lso'
 
 # npm helper
@@ -121,7 +122,7 @@ alias trvl='travis lint'
 alias phpunit='/usr/local/bin/phpunit-5.7.5.phar'
 
 # Just cool stuff here
-alias weather='function __weather() { curl -s wttr.in/$* | sed -n "1,7p"; }; __weather'
+alias weather='function __weather() { curl -s wttr.in/${*:-Utrecht} | sed -n "1,7p"; }; __weather'
 
 ## Override default PHP
 export PATH=/usr/local/php5/bin:$PATH
