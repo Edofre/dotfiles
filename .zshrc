@@ -114,6 +114,7 @@ alias cup='composer update'
 alias cda='composer dump-autoload'
 alias ccc='composer clear-cache'
 alias cte='composer test'
+alias cot='composer outdated'
 
 # Travis helpers
 alias trvl='travis lint'
