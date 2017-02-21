@@ -110,6 +110,7 @@ alias glpp='gulp --production'
 alias gdns='git diff --name-status'
 
 # Composer helpers
+alias cin='composer install'
 alias cup='composer update'
 alias cda='composer dump-autoload'
 alias ccc='composer clear-cache'
