@@ -118,6 +118,9 @@ alias ccc='composer clear-cache'
 alias cte='composer test'
 alias cot='composer outdated'
 
+# Vagrant helpers
+alias vgs='vagrant global-status'
+
 # Travis helpers
 alias trvl='travis lint'
 
