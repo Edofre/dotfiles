@@ -129,6 +129,8 @@ alias phpunit='/usr/local/bin/phpunit-5.7.5.phar'
 
 # Sudo chown _www, don't ask..
 alias scw='sudo chown _www'
+alias jup='sudo chown -R _www .'
+alias jdn='sudo chown -R edofreriks .'
 
 # Just cool stuff here
 alias weather='function __weather() { curl -s wttr.in/${*:-Utrecht} | sed -n "1,7p"; }; __weather'
