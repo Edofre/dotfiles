@@ -95,8 +95,10 @@ alias dot='cd ~/.dotfiles/'
 # Script helper
 alias kygn='python ~/.dotfiles/scripts/keygen.py'
 
-# ls helper
+# bash helper
 alias lss='ls -lhaF'
+alias ffcd='find . -name '
+
 # Permisson of lso script should be 0755
 alias lso='~/.dotfiles/scripts/lso'
 
