@@ -111,6 +111,7 @@ alias gbv='git branch -v'
 alias gcsmgs="git commit -S -m"
 alias glpp='gulp --production'
 alias gdns='git diff --name-status'
+alias gpsuo='git push --set-upstream origin'
 
 # Composer helpers
 alias cin='composer install'
