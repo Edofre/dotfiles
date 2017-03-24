@@ -128,7 +128,8 @@ alias vgs='vagrant global-status'
 alias trvl='travis lint'
 
 # PHPUnit
-alias phpunit='/usr/local/bin/phpunit-5.7.5.phar'
+alias phpunit5='mamphp /usr/local/bin/phpunit-5.phar'
+alias phpunit6='mamphp /usr/local/bin/phpunit-6.phar'
 
 # Just cool stuff here
 alias weather='function __weather() { curl -s wttr.in/${*:-Utrecht} | sed -n "1,7p"; }; __weather'
