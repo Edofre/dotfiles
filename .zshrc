@@ -123,6 +123,7 @@ alias cot='composer outdated'
 
 # Vagrant helpers
 alias vgs='vagrant global-status'
+alias vgsp='vagrant global-status --prune'
 
 # Travis helpers
 alias trvl='travis lint'
