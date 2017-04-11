@@ -109,9 +109,12 @@ alias npmi='npm install'
 alias gs='git status'
 alias gbv='git branch -v'
 alias gcsmgs="git commit -S -m"
-alias glpp='gulp --production'
 alias gdns='git diff --name-status'
 alias gpsuo='git push --set-upstream origin'
+
+# Gulp helpers
+alias glpp='gulp --production'
+alias glpdvw='gulp dev:build-watch'
 
 # Composer helpers
 alias cin='composer install'
