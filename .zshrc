@@ -124,6 +124,8 @@ alias ccc='composer clear-cache'
 alias cte='composer test'
 alias cot='composer outdated'
 
+alias composer7='mamphp /usr/local/bin/composer'
+
 # Vagrant helpers
 alias vgs='vagrant global-status'
 alias vgsp='vagrant global-status --prune'
@@ -133,7 +135,6 @@ alias trvl='travis lint'
 
 # PHPUnit
 alias phpunit5='mamphp /usr/local/bin/phpunit-5.phar'
-alias phpunit6='mamphp /usr/local/bin/phpunit-6.phar'
 
 # Just cool stuff here
 alias weather='function __weather() { curl -s wttr.in/${*:-Utrecht} | sed -n "1,7p"; }; __weather'
