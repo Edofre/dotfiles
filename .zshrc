@@ -124,7 +124,8 @@ alias ccc='composer clear-cache'
 alias cte='composer test'
 alias cot='composer outdated'
 
-alias composer7='mamphp /usr/local/bin/composer'
+# Laravel helpers
+alias pld='php laravel dusk'
 
 # Vagrant helpers
 alias vgs='vagrant global-status'
