@@ -125,7 +125,7 @@ alias cte='composer test'
 alias cot='composer outdated'
 
 # Laravel helpers
-alias pld='php artisan dusk'
+alias pad='php artisan dusk'
 
 # Vagrant helpers
 alias vgs='vagrant global-status'
