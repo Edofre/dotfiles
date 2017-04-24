@@ -107,6 +107,7 @@ alias npmi='npm install'
 
 # GIT helpers
 alias gs='git status'
+alias clgs='clear ; gs'
 alias gbv='git branch -v'
 alias gcsmgs="git commit -S -m"
 alias gdns='git diff --name-status'
