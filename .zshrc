@@ -130,6 +130,7 @@ alias pad='php artisan dusk'
 
 # Vagrant helpers
 alias vs='vagrant status'
+alias vsh='vagrant ssh'
 alias vgs='vagrant global-status'
 alias vgsp='vagrant global-status --prune'
 
