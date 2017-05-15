@@ -110,6 +110,7 @@ alias gs='git status'
 alias clgs='clear ; gs'
 alias gbv='git branch -v'
 alias gcsmgs="git commit -S -m"
+alias gdno='git diff --name-only'
 alias gdns='git diff --name-status'
 alias gpsuo='git push --set-upstream origin'
 
