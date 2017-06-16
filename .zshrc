@@ -91,6 +91,8 @@ alias mamsql='/Applications/MAMP/Library/bin/mysql --host=localhost -uroot -proo
 alias htdocs='cd /Applications/MAMP/htdocs/'
 alias www='cd /Applications/MAMP/htdocs/'
 alias dot='cd ~/.dotfiles/'
+alias phpdir='cd ~/PhpstormProjects/'
+alias pydir='cd ~/PycharmProjects/'
 
 # Script helper
 alias kygn='python ~/.dotfiles/scripts/keygen.py'
@@ -128,6 +130,7 @@ alias cot='composer outdated'
 
 # Laravel helpers
 alias pad='php artisan dusk'
+alias la5nukedb='php artisan migrate:refresh --seed'
 
 # Vagrant helpers
 alias vs='vagrant status'
