@@ -144,6 +144,9 @@ alias trvl='travis lint'
 # PHPUnit
 alias phpunit5='mamphp /usr/local/bin/phpunit-5.phar'
 
+# Coveralls
+alias coverall='/usr/local/bin/coveralls.phar'
+
 # Just cool stuff here
 alias weather='function __weather() { curl -s wttr.in/${*:-Utrecht} | sed -n "1,7p"; }; __weather'
 
