@@ -104,8 +104,9 @@ alias ffcd='find . -name '
 # Permisson of lso script should be 0755
 alias lso='~/.dotfiles/scripts/lso'
 
-# npm helper
+# npm helpers
 alias npmi='npm install'
+alias npmrd="npm run debug"
 
 # GIT helpers
 alias gs='git status'
