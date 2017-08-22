@@ -106,6 +106,7 @@ alias lso='~/.dotfiles/scripts/lso'
 
 # npm helpers
 alias npmi='npm install'
+alias npmu='npm update'
 alias npmrd="npm run debug"
 
 # GIT helpers
