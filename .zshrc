@@ -117,6 +117,7 @@ alias gcsmgs="git commit -S -m"
 alias gdno='git diff --name-only'
 alias gdns='git diff --name-status'
 alias gpsuo='git push --set-upstream origin'
+alias gnuke='git branch | grep -v "master" | xargs git branch -D'
 
 # Gulp helpers
 alias glpp='gulp --production'
