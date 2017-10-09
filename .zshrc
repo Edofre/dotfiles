@@ -84,7 +84,7 @@ source $ZSH/oh-my-zsh.sh
 
 # Easy php and mysql access for MAMP
 alias mamphp='/Applications/MAMP/bin/php/php7.1.10/bin/php'
-alias mamphp56='/Applications/MAMP/bin/php/php5.6.28/bin/php'
+alias mamphp56='/Applications/MAMP/bin/php/php5.6.30/bin/php'
 alias mamsql='/Applications/MAMP/Library/bin/mysql --host=localhost -uroot -proot'
 
 # Location helpers
