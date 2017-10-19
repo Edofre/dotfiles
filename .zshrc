@@ -108,6 +108,7 @@ alias lso='~/.dotfiles/scripts/lso'
 alias npmi='npm install'
 alias npmu='npm update'
 alias npmrd="npm run debug"
+alias npmrw="npm run watch"
 
 # GIT helpers
 alias gs='git status'
