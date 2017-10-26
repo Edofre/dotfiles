@@ -142,6 +142,7 @@ alias vs='vagrant status'
 alias vsh='vagrant ssh'
 alias vgs='vagrant global-status'
 alias vgsp='vagrant global-status --prune'
+alias vrp='vagrant reload --provision'
 
 # Travis helpers
 alias trvl='travis lint'
