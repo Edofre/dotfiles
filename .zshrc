@@ -110,6 +110,7 @@ alias npmu='npm update'
 alias npmrd="npm run debug"
 alias npmrw="npm run watch"
 alias npmrp="npm run production"
+alias npmp="npm publish ./"
 
 # GIT helpers
 alias gs='git status'
