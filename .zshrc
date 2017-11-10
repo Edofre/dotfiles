@@ -108,6 +108,7 @@ alias lso='~/.dotfiles/scripts/lso'
 alias npmi='npm install'
 alias npmu='npm update'
 alias npmrd="npm run debug"
+alias npmrdv="npm run dev"
 alias npmrw="npm run watch"
 alias npmrp="npm run production"
 alias npmp="npm publish ./"
