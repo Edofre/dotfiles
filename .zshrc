@@ -145,6 +145,7 @@ alias vsh='vagrant ssh'
 alias vgs='vagrant global-status'
 alias vgsp='vagrant global-status --prune'
 alias vrp='vagrant reload --provision'
+alias vssh='cd /Applications/MAMP/htdocs/Homestead && vagrant ssh'
 
 # Travis helpers
 alias trvl='travis lint'
