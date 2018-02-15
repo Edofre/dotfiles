@@ -115,7 +115,7 @@ alias npmp="npm publish ./"
 
 # GIT helpers
 alias ga.='git add .'
-alias clgs='clear ; gs'
+alias clgs='clear ; git status'
 alias gbv='git branch -v'
 alias gcsmgs="git commit -S -m"
 alias gdno='git diff --name-only'
