@@ -114,7 +114,6 @@ alias npmrp="npm run production"
 alias npmp="npm publish ./"
 
 # GIT helpers
-alias gs='git status'
 alias ga.='git add .'
 alias clgs='clear ; gs'
 alias gbv='git branch -v'
