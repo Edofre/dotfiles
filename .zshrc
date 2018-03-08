@@ -149,6 +149,9 @@ alias vrp='vagrant reload --provision'
 alias vup='cd /Applications/MAMP/htdocs/Homestead && vagrant up'
 alias vssh='cd /Applications/MAMP/htdocs/Homestead && vagrant ssh'
 
+# Easily copy ssh key
+alias copyssh="pbcopy < $HOME/.ssh/id_rsa.pub"
+
 # Travis helpers
 alias trvl='travis lint'
 
