@@ -93,6 +93,7 @@ alias www='cd /Applications/MAMP/htdocs/'
 alias dot='cd ~/.dotfiles/'
 alias phpdir='cd ~/PhpstormProjects/'
 alias pydir='cd ~/PycharmProjects/'
+alias hmstd='cd /Applications/MAMP/htdocs/Homestead'
 
 # Script helper
 alias kygn='python ~/.dotfiles/scripts/keygen.py'
