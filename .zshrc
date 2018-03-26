@@ -124,6 +124,7 @@ alias gdno='git diff --name-only'
 alias gdns='git diff --name-status'
 alias gpsuo='git push --set-upstream origin'
 alias gnuke='git branch | grep -v "master" | xargs git branch -D'
+alias ghist='git log  --pretty=oneline | tail -n 10'
 
 # Gulp helpers
 alias glpp='gulp --production'
