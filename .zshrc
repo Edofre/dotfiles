@@ -141,6 +141,7 @@ alias cot='composer outdated'
 # Laravel helpers
 alias pad='php artisan dusk'
 alias la5nukedb='php artisan migrate:refresh --seed'
+alias la5test='./vendor/phpunit/phpunit/phpunit'
 
 # Vagrant helpers
 alias vs='vagrant status'
