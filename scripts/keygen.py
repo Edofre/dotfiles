@@ -4,7 +4,7 @@ import string
 import random
 import subprocess
 
-def id_generator(size=13, chars=string.ascii_letters + string.digits):
+def id_generator(size=24, chars=string.ascii_letters + string.digits):
     return ''.join(random.choice(chars) for _ in range(size))
 
 def write_to_clipboard(output):
