@@ -3,8 +3,9 @@ __author__ = 'edofreriks'
 import string
 import random
 import subprocess
+import sys
 
-def id_generator(size=24, chars=string.ascii_letters + string.digits):
+def id_generator(size, chars=string.ascii_letters + string.digits):
     return ''.join(random.choice(chars) for _ in range(size))
 
 def write_to_clipboard(output):
@@ -17,7 +18,14 @@ def read_from_clipboard():
         'pbpaste', env={'LANG': 'en_US.UTF-8'}).decode('utf-8')
 
 def main():
-    rand_string = id_generator()
+
+    try:
+        size = sys.argv[1]
+    except IndexError:
+        size = 24 # Default length
+
+
+    rand_string = id_generator(size)
     write_to_clipboard(rand_string) # Write it to the clipboard
     print(rand_string+' copied to clipboard')
 
