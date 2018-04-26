@@ -166,6 +166,7 @@ alias coverall='/usr/local/bin/coveralls.phar'
 
 # Just cool stuff here
 alias weather='function __weather() { curl -s wttr.in/${*:-Utrecht} | sed -n "1,7p"; }; __weather'
+alias shrug="print '¯\\\_(ツ)_/¯'"
 
 ## Override default PHP
 export PATH=/usr/local/php5/bin:$PATH
