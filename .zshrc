@@ -164,6 +164,9 @@ alias phpunit5='php /usr/local/bin/phpunit-5.phar'
 # Coveralls
 alias coverall='/usr/local/bin/coveralls.phar'
 
+# Update time on ubuntu machine
+alias snupdate='sudo ntpdate ntp.ubuntu.com'
+
 # Just cool stuff here
 alias weather='function __weather() { curl -s wttr.in/${*:-Utrecht} | sed -n "1,7p"; }; __weather'
 alias shrug="print '¯\\\_(ツ)_/¯'"
