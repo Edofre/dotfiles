@@ -83,12 +83,9 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # Location helpers
-alias htdocs='cd /Applications/MAMP/htdocs/'
-alias www='cd /Applications/MAMP/htdocs/'
 alias dot='cd ~/.dotfiles/'
 alias phpdir='cd ~/PhpstormProjects/'
 alias pydir='cd ~/PycharmProjects/'
-alias hmstd='cd /Applications/MAMP/htdocs/Homestead'
 
 # Script helper
 alias kygn='python ~/.dotfiles/scripts/keygen.py'
@@ -145,8 +142,6 @@ alias vsh='vagrant ssh'
 alias vgs='vagrant global-status'
 alias vgsp='vagrant global-status --prune'
 alias vrp='vagrant reload --provision'
-alias vup='cd /Applications/MAMP/htdocs/Homestead && vagrant up'
-alias vssh='cd /Applications/MAMP/htdocs/Homestead && vagrant ssh'
 
 # Easily copy ssh key
 alias copyssh="pbcopy < $HOME/.ssh/id_rsa.pub"
