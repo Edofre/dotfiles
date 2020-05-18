@@ -52,7 +52,7 @@ ZSH_CUSTOM=~/.dotfiles/zshrc/
 plugins=(git laravel5 osx vagrant)
 
 # User configuration
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/git/bin:/opt/ImageMagick/bin:/Users/edofreriks/.composer/vendor/bin"
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/git/bin:/opt/ImageMagick/bin:/Users/edofreriks/.composer/vendor/bin:/Users/edofreriks/Flutter/flutter/bin:/Users/edofreriks/Flutter/tools/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
@@ -159,11 +159,15 @@ alias coverall='/usr/local/bin/coveralls.phar'
 alias snupdate='sudo ntpdate ntp.ubuntu.com'
 
 # Just cool stuff here
-alias weather='function __weather() { curl -s wttr.in/${*:-Utrecht} | sed -n "1,7p"; }; __weather'
+alias weather='function __weather() { curl -s wttr.in/${*:-Rotterdam} | sed -n "1,7p"; }; __weather'
 alias shrug="print '¯\\\_(ツ)_/¯'"
 
 ## Override default PHP
 export PATH=/usr/local/php5/bin:$PATH
+## Flutter ##
+export PATH=$PATH:~/Flutter/bin
+## Android SDK manager ##
+export PATH=$PATH:/Users/edofreriks/Library/Android/sdk/cmdline-tools/latest/bin
 
 # added by travis gem
 [ -f /Users/edofreriks/.travis/travis.sh ] && source /Users/edofreriks/.travis/travis.sh
