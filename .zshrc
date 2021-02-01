@@ -52,8 +52,8 @@ ZSH_CUSTOM=~/.dotfiles/zshrc/
 plugins=(git laravel5 osx vagrant)
 
 # User configuration
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/git/bin:/opt/ImageMagick/bin:/Users/edofreriks/.composer/vendor/bin:/Users/edofreriks/Flutter/flutter/bin:/Users/edofreriks/Flutter/tools/bin"
-# export MANPATH="/usr/local/man:$MANPATH"
+export PATH=/usr/local/bin/php:$PATH
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/git/bin:/opt/ImageMagick/bin:/Users/edofreriks/.composer/vendor/bin"
 
 source $ZSH/oh-my-zsh.sh
 
@@ -84,8 +84,6 @@ source $ZSH/oh-my-zsh.sh
 
 # Location helpers
 alias dot='cd ~/.dotfiles/'
-alias phpdir='cd ~/PhpstormProjects/'
-alias pydir='cd ~/PycharmProjects/'
 
 # Script helper
 alias kygn='python ~/.dotfiles/scripts/keygen.py'
@@ -162,12 +160,21 @@ alias snupdate='sudo ntpdate ntp.ubuntu.com'
 alias weather='function __weather() { curl -s wttr.in/${*:-Rotterdam} | sed -n "1,7p"; }; __weather'
 alias shrug="print '¯\\\_(ツ)_/¯'"
 
-## Override default PHP
-export PATH=/usr/local/php5/bin:$PATH
-## Flutter ##
-export PATH=$PATH:~/Flutter/bin
-## Android SDK manager ##
-export PATH=$PATH:/Users/edofreriks/Library/Android/sdk/cmdline-tools/latest/bin
-
 # added by travis gem
 [ -f /Users/edofreriks/.travis/travis.sh ] && source /Users/edofreriks/.travis/travis.sh
+
+function opendb () {
+   [ ! -f .env ] && { echo "No .env file found."; exit 1; }
+
+   DB_CONNECTION=$(grep DB_CONNECTION .env | grep -v -e '^\s*#' | cut -d '=' -f 2-)
+   DB_HOST=$(grep DB_HOST .env | grep -v -e '^\s*#' | cut -d '=' -f 2-)
+   DB_PORT=33060 # Hardcoded, because we're connecting to Homestead..
+   DB_DATABASE=$(grep DB_DATABASE .env | grep -v -e '^\s*#' | cut -d '=' -f 2-)
+   DB_USERNAME=$(grep DB_USERNAME .env | grep -v -e '^\s*#' | cut -d '=' -f 2-)
+   DB_PASSWORD=$(grep DB_PASSWORD .env | grep -v -e '^\s*#' | cut -d '=' -f 2-)
+
+   DB_URL="${DB_CONNECTION}://${DB_USERNAME}:${DB_PASSWORD}@${DB_HOST}:${DB_PORT}/${DB_DATABASE}"
+
+   echo "Opening ${DB_URL}"
+   open $DB_URL
+}
