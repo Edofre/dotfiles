@@ -153,6 +153,9 @@ alias phpunit5='php /usr/local/bin/phpunit-5.phar'
 # Coveralls
 alias coverall='/usr/local/bin/coveralls.phar'
 
+# phpstorm
+alias phpstorm='open -a /Applications/PhpStorm\ 2021.1\ EAP.app "`pwd`"'
+
 # Update time on ubuntu machine
 alias snupdate='sudo ntpdate ntp.ubuntu.com'
 
